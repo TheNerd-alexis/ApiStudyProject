@@ -1,0 +1,58 @@
+@CHARSET "UTF-8";
+
+.item-table {
+/* 	position: relative; */
+/* 	float: center; */
+	width: 90%;	
+	border-collapse: collapse;
+	font-size: 12px;
+	line-height: 24px;
+	margin: 3%;
+/* 	margin-top: 3%; */
+	vertical-align: middle;
+}
+
+.item-table td:first-child {
+	width: 10%;
+	text-align: center;
+	font-size: 15px;
+}
+
+.item-table tr:first-child {
+	text-align: center;
+	background: maroon;
+	font-weight: 900;
+	font-size: 15px;
+	color: white;
+}
+
+
+.item-table td {
+	border: #d3d3d3 solid 1px; /* 경계선 색상 스타일 굵기 */
+	padding: 5px; /* 줄 간격 */
+}
+
+.page-table {
+	width: 45%;
+	text-align: center;
+}
+
+.page-table td {
+	width: 7.14%;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: chocolate;
+	font-weight: 900;
+	font-size: 15px;
+}
